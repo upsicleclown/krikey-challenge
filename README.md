@@ -12,9 +12,8 @@ This was done by:
 1. Creating a PostgreSQL database instance hosted by ElephantSQL.
 2. Packaging the service into a Docker image
 3. Pushing the Docker image to DockerHub ([here](https://hub.docker.com/r/upsicleclown/krikey-challenge-service))
-4. Uploading this image on railway, the API is available ([here](https://wiry-chicken-production.up.railway.app/author))
-3. Packaged the client into a Docker image
-4. Upload these images onto EC2 instances in Docker
+4. Uploading this image on Railway, the API is available [here](https://wiry-chicken-production.up.railway.app/author)
+5. Deploying the client application on Vercel [here](https://krikey-challenge.vercel.app/)
 
 **Note:** The service was deployed on April 6th, 2024 on the free tier of Railway and will only run until the credits for my free usage tier run out. If this API is not resposive, this is likely the cause. You can always follow the steps below to run locally.
 
