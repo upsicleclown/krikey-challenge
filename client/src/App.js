@@ -13,7 +13,7 @@ function App() {
 
   const fetchAuthors = async () => {
     try {
-      const response = await fetch('https://wiry-chicken-production.up.railway.app/author');
+      const response = await fetch(`${process.env.REACT_APP_API_URL}`);
       const data = await response.json();
       setAuthors(data);
     } catch (error) {

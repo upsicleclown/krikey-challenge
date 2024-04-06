@@ -19,7 +19,14 @@ This was done by:
 
 To run locally:
 1.  `git clone` the repo into some directory I will henceforth refer to as `$DIR`.
-2. In `$DIR/service`, run `npm start`
-3. In `$DIR/client`, run `npm start`
+2. In `$DIR/service`, run:
+```bash
+$ npm start
+```
+3. In `$DIR/client`, run:
+```bash
+$ export REACT_APP_API_URL=http://localhost:3001
+$ npm start
+```
 4. Enjoy!
 
