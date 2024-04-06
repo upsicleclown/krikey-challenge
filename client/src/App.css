@@ -1,0 +1,68 @@
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 90vh; /* Make the container fill the viewport height */
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+}
+
+.back-button {
+  padding: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.title {
+  margin: 0 auto; /* Center the title */
+}
+
+.author-list {
+  flex: 1; /* Expand to fill remaining space */
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid #dee2e6;
+  position: relative;
+}
+
+.profile-picture {
+  width: 50px;
+  height: 50px; 
+  border-radius: 50%; 
+  margin-right: 15px; 
+}
+
+.author-info {
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+.author-name {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.author-email {
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.delete-author {
+  position: absolute;
+  right: 0; 
+  border: none; 
+  color: #9b9898;
+  cursor: pointer;
+}
